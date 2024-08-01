@@ -83,6 +83,11 @@ namespace API_Servicos.Repositorios
             return true;
         }
 
+        public Task<UsuarioModel> DeletarUsuario(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         Task<UsuarioModel> IUsuarioRepositorio.AtualizarUsuario(UsuarioModel usuario, int id)
         {
             throw new NotImplementedException();
